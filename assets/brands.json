@@ -1,0 +1,32 @@
+[
+ {
+  "id": "zorka",
+  "name": "Зорька Займ",
+  "short": "З",
+  "primary": "#5B3DF5",
+  "primary2": "#8B6CFF",
+  "accent": "#FFB020",
+  "bg": "#F5F3FF",
+  "radius": "18px"
+ },
+ {
+  "id": "kopilka",
+  "name": "Копейка+",
+  "short": "К",
+  "primary": "#0E9F6E",
+  "primary2": "#34D399",
+  "accent": "#F97316",
+  "bg": "#F0FDF7",
+  "radius": "14px"
+ },
+ {
+  "id": "severfin",
+  "name": "СеверФин",
+  "short": "С",
+  "primary": "#0B4F8A",
+  "primary2": "#3B82F6",
+  "accent": "#E11D48",
+  "bg": "#F1F6FC",
+  "radius": "10px"
+ }
+]

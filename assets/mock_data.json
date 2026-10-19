@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "note": "Все данные вымышлены. Реальных персональных данных нет.",
+    "today": "2026-10-19",
+    "currency": "₽"
+  },
+  "brands": [
+    {
+      "id": "zorka",
+      "name": "Зорька Займ",
+      "short": "З",
+      "primary": "#5B3DF5",
+      "primary2": "#8B6CFF",
+      "accent": "#FFB020",
+      "bg": "#F5F3FF",
+      "radius": "18px"
+    },
+    {
+      "id": "kopilka",
+      "name": "Копейка+",
+      "short": "К",
+      "primary": "#0E9F6E",
+      "primary2": "#34D399",
+      "accent": "#F97316",
+      "bg": "#F0FDF7",
+      "radius": "14px"
+    },
+    {
+      "id": "severfin",
+      "name": "СеверФин",
+      "short": "С",
+      "primary": "#0B4F8A",
+      "primary2": "#3B82F6",
+      "accent": "#E11D48",
+      "bg": "#F1F6FC",
+      "radius": "10px"
+    }
+  ],
+  "borrower": {
+    "id": "B-000123",
+    "firstName": "Иван",
+    "lastName": "Тестов",
+    "middleName": "Демович",
+    "phone": "+7 900 000-00-00",
+    "email": "demo@example.test",
+    "smsCode": "1234",
+    "pin": "0000"
+  },
+  "loans": [
+    {
+      "id": "PDL-2026-0457",
+      "type": "PDL",
+      "title": "Займ до зарплаты",
+      "contract": "ДЗ-2026/0457",
+      "status": "active",
+      "issued": "2026-10-05",
+      "dueDate": "2026-10-26",
+      "principal": 10000,
+      "ratePerDay": 0.8,
+      "accruedToday": 1120,
+      "dueTodayTotal": 11120,
+      "dueOnDueDateTotal": 11680,
+      "addonsInDue": 0,
+      "prolongation": {
+        "days": 14,
+        "fee": 1120,
+        "newDueDate": "2026-11-09",
+        "totalIfPayLater": 12800,
+        "overpayment": 1680
+      }
+    },
+    {
+      "id": "IL-2026-0212",
+      "type": "IL",
+      "title": "Займ с графиком",
+      "contract": "ИЗ-2026/0212",
+      "status": "active",
+      "issued": "2026-08-01",
+      "principal": 60000,
+      "ratePerDay": 0.35,
+      "remainingPrincipal": 40210,
+      "nextPayment": {
+        "date": "2026-10-31",
+        "amount": 9850,
+        "principal": 6900,
+        "interest": 2560,
+        "addons": 390
+      },
+      "dueTodayTotal": 0,
+      "earlyFullToday": 41870,
+      "prolongation": {
+        "days": 14,
+        "fee": 1970,
+        "newDueDate": "2026-11-14",
+        "overpayment": 1970
+      },
+      "schedule": [
+        {
+          "n": 1,
+          "date": "2026-08-15",
+          "amount": 9850,
+          "principal": 5980,
+          "interest": 3480,
+          "addons": 390,
+          "status": "paid"
+        },
+        {
+          "n": 2,
+          "date": "2026-08-31",
+          "amount": 9850,
+          "principal": 6200,
+          "interest": 3260,
+          "addons": 390,
+          "status": "paid"
+        },
+        {
+          "n": 3,
+          "date": "2026-09-15",
+          "amount": 9850,
+          "principal": 6420,
+          "interest": 3040,
+          "addons": 390,
+          "status": "paid"
+        },
+        {
+          "n": 4,
+          "date": "2026-09-30",
+          "amount": 9850,
+          "principal": 6650,
+          "interest": 2810,
+          "addons": 390,
+          "status": "paid"
+        },
+        {
+          "n": 5,
+          "date": "2026-10-15",
+          "amount": 9850,
+          "principal": 6540,
+          "interest": 2920,
+          "addons": 390,
+          "status": "paid"
+        },
+        {
+          "n": 6,
+          "date": "2026-10-31",
+          "amount": 9850,
+          "principal": 6900,
+          "interest": 2560,
+          "addons": 390,
+          "status": "upcoming"
+        },
+        {
+          "n": 7,
+          "date": "2026-11-15",
+          "amount": 9850,
+          "principal": 7140,
+          "interest": 2320,
+          "addons": 390,
+          "status": "planned"
+        },
+        {
+          "n": 8,
+          "date": "2026-11-30",
+          "amount": 9850,
+          "principal": 7390,
+          "interest": 2070,
+          "addons": 390,
+          "status": "planned"
+        },
+        {
+          "n": 9,
+          "date": "2026-12-15",
+          "amount": 9850,
+          "principal": 7650,
+          "interest": 1810,
+          "addons": 390,
+          "status": "planned"
+        },
+        {
+          "n": 10,
+          "date": "2026-12-31",
+          "amount": 12740,
+          "principal": 11130,
+          "interest": 1220,
+          "addons": 390,
+          "status": "planned"
+        }
+      ]
+    }
+  ],
+  "closedLoans": [
+    {
+      "id": "PDL-2026-0101",
+      "type": "PDL",
+      "contract": "ДЗ-2026/0101",
+      "principal": 7000,
+      "issued": "2026-03-02",
+      "closed": "2026-03-20",
+      "paidTotal": 8008,
+      "documents": [
+        {
+          "name": "Договор займа",
+          "file": "dogovor_0101.pdf"
+        },
+        {
+          "name": "Индивидуальные условия",
+          "file": "iu_0101.pdf"
+        },
+        {
+          "name": "Справка о закрытии",
+          "file": "spravka_0101.pdf"
+        }
+      ]
+    },
+    {
+      "id": "PDL-2025-0877",
+      "type": "PDL",
+      "contract": "ДЗ-2025/0877",
+      "principal": 5000,
+      "issued": "2025-11-10",
+      "closed": "2025-11-24",
+      "paidTotal": 5560,
+      "documents": [
+        {
+          "name": "Договор займа",
+          "file": "dogovor_0877.pdf"
+        },
+        {
+          "name": "Справка о закрытии",
+          "file": "spravka_0877.pdf"
+        }
+      ]
+    },
+    {
+      "id": "IL-2025-0033",
+      "type": "IL",
+      "contract": "ИЗ-2025/0033",
+      "principal": 30000,
+      "issued": "2025-04-01",
+      "closed": "2025-08-28",
+      "paidTotal": 38450,
+      "documents": [
+        {
+          "name": "Договор займа",
+          "file": "dogovor_0033.pdf"
+        },
+        {
+          "name": "График платежей",
+          "file": "grafik_0033.pdf"
+        },
+        {
+          "name": "Справка о закрытии",
+          "file": "spravka_0033.pdf"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "date": "2026-10-15",
+      "loanId": "IL-2026-0212",
+      "amount": 9850,
+      "method": "СБП",
+      "split": {
+        "principal": 6540,
+        "interest": 2920,
+        "addons": 390
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "loanId": "IL-2026-0212",
+      "amount": 9850,
+      "method": "Карта •• 4421",
+      "split": {
+        "principal": 6650,
+        "interest": 2810,
+        "addons": 390
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "loanId": "IL-2026-0212",
+      "amount": 9850,
+      "method": "Карта •• 4421",
+      "split": {
+        "principal": 6420,
+        "interest": 3040,
+        "addons": 390
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "loanId": "IL-2026-0212",
+      "amount": 9850,
+      "method": "СБП",
+      "split": {
+        "principal": 6200,
+        "interest": 3260,
+        "addons": 390
+      }
+    },
+    {
+      "date": "2026-08-15",
+      "loanId": "IL-2026-0212",
+      "amount": 9850,
+      "method": "Карта •• 4421",
+      "split": {
+        "principal": 5980,
+        "interest": 3480,
+        "addons": 390
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "loanId": "PDL-2026-0101",
+      "amount": 8008,
+      "method": "СБП",
+      "split": {
+        "principal": 7000,
+        "interest": 1008,
+        "addons": 0
+      }
+    }
+  ],
+  "addons": [
+    {
+      "id": "ins",
+      "loanId": "IL-2026-0212",
+      "name": "Страхование жизни",
+      "price": 250,
+      "period": "за платёж",
+      "active": true,
+      "refundIfCancel": 1000,
+      "desc": "Можно отключить в любой момент. Неиспользованная часть возвращается."
+    },
+    {
+      "id": "doc",
+      "loanId": "IL-2026-0212",
+      "name": "Онлайн-консультация врача",
+      "price": 140,
+      "period": "за платёж",
+      "active": true,
+      "refundIfCancel": 560,
+      "desc": "Подключена при оформлении. Отключение в один клик."
+    },
+    {
+      "id": "sms",
+      "loanId": "PDL-2026-0457",
+      "name": "SMS-информирование",
+      "price": 0,
+      "period": "бесплатно",
+      "active": true,
+      "refundIfCancel": 0,
+      "desc": "Напоминания о платеже."
+    }
+  ],
+  "notifications": [
+    {
+      "date": "2026-10-19 09:00",
+      "type": "reminder",
+      "title": "Платёж через 7 дней",
+      "text": "26.10 нужно внести 11 680 ₽ по займу ДЗ-2026/0457. Сегодня — 11 120 ₽.",
+      "read": false
+    },
+    {
+      "date": "2026-10-15 12:41",
+      "type": "payment",
+      "title": "Платёж получен",
+      "text": "9 850 ₽ по займу ИЗ-2026/0212. Спасибо!",
+      "read": true
+    },
+    {
+      "date": "2026-10-12 03:10",
+      "type": "incident",
+      "title": "Работаем из резервного облака",
+      "text": "Облако A недоступно 14 минут. ЛК и оплата работали без перерыва.",
+      "read": true
+    },
+    {
+      "date": "2026-10-05 18:22",
+      "type": "loan",
+      "title": "Займ выдан",
+      "text": "10 000 ₽ на карту •• 4421. Договор в разделе «Документы».",
+      "read": true
+    }
+  ],
+  "chat": [
+    {
+      "from": "bot",
+      "time": "09:12",
+      "text": "Здравствуйте, Иван! Я помощник. Чем помочь?"
+    },
+    {
+      "from": "user",
+      "time": "09:13",
+      "text": "Сколько платить по короткому займу?"
+    },
+    {
+      "from": "bot",
+      "time": "09:13",
+      "text": "По займу ДЗ-2026/0457: сегодня — 11 120 ₽, на 26.10 — 11 680 ₽. Погасить можно полностью или частично на главной."
+    },
+    {
+      "from": "user",
+      "time": "09:14",
+      "text": "А как отключить консультацию врача?"
+    },
+    {
+      "from": "bot",
+      "time": "09:14",
+      "text": "В разделе «Услуги» — переключатель напротив услуги. Возврат 560 ₽ придёт на карту. Или позвать оператора?"
+    }
+  ],
+  "operator": {
+    "name": "Оператор Марина",
+    "slaMinutes": 2,
+    "greeting": "Здравствуйте, Иван! Это Марина. Вижу ваши займы, помогу."
+  },
+  "status": {
+    "components": [
+      {
+        "name": "Вход и SMS",
+        "ok": true
+      },
+      {
+        "name": "Платежи (карта, СБП)",
+        "ok": true
+      },
+      {
+        "name": "Чат и поддержка",
+        "ok": true
+      },
+      {
+        "name": "Документы",
+        "ok": true
+      }
+    ],
+    "incidents": [
+      {
+        "date": "2026-10-12",
+        "text": "Облако A недоступно 14 мин. Трафик автоматически переключён на облако B, простоя не было."
+      }
+    ]
+  },
+  "crm": {
+    "operators": [
+      {
+        "login": "marina",
+        "name": "Оператор Марина",
+        "password": "demo"
+      }
+    ],
+    "templates": [
+      {
+        "title": "Сумма к оплате",
+        "text": "По займу ДЗ-2026/0457 сегодня к оплате 11 120 ₽, на 26.10 — 11 680 ₽. Оплатить можно на главной: «Погасить» полностью или частично."
+      },
+      {
+        "title": "Услуга отключена",
+        "text": "Услугу отключили, возврат придёт на карту в течение 7 дней. Изменения уже видны в разделе «Услуги»."
+      },
+      {
+        "title": "Платёж зачислен",
+        "text": "Ваш платёж зачислен, датой платежа считается день оплаты. Просрочки не будет."
+      },
+      {
+        "title": "Сбой устранён",
+        "text": "Сбой устранён, приложение работает. Если платёж не прошёл — можно оплатить через аварийную страницу или по реквизитам."
+      },
+      {
+        "title": "Документы",
+        "text": "Договор и справка о закрытии лежат в разделе «Архив и документы», их можно скачать в PDF."
+      }
+    ],
+    "seedRequests": [
+      {
+        "id": "R-1041",
+        "type": "emergency",
+        "title": "Оплата через аварийную страницу: проверить зачисление",
+        "clientId": "B-000124",
+        "clientName": "Петров П. (демо)",
+        "createdMinAgo": 38,
+        "slaMin": 30,
+        "status": "in_progress",
+        "detail": "Договор ДЗ-2026/0390, 6 400 ₽ через СБП 12.10 во время отказа облака A."
+      },
+      {
+        "id": "R-1042",
+        "type": "addon",
+        "title": "Отключить услугу «Юридическая поддержка»",
+        "clientId": "B-000125",
+        "clientName": "Сидорова А. (демо)",
+        "createdMinAgo": 95,
+        "slaMin": 240,
+        "status": "new",
+        "detail": "Возврат 780 ₽."
+      },
+      {
+        "id": "R-1039",
+        "type": "chat",
+        "title": "Не приходит SMS-код",
+        "clientId": "B-000126",
+        "clientName": "Кузнецов Д. (демо)",
+        "createdMinAgo": 300,
+        "slaMin": 5,
+        "status": "done",
+        "detail": "Решено: вход через звонок."
+      }
+    ],
+    "contactHistory": [
+      {
+        "date": "2026-10-15 12:44",
+        "channel": "push",
+        "text": "Платёж 9 850 ₽ получен"
+      },
+      {
+        "date": "2026-10-12 03:20",
+        "channel": "push",
+        "text": "Работаем из резервного облака"
+      },
+      {
+        "date": "2026-10-05 18:25",
+        "channel": "SMS",
+        "text": "Займ 10 000 ₽ выдан"
+      },
+      {
+        "date": "2026-09-02 10:10",
+        "channel": "чат",
+        "text": "Вопрос о графике — закрыт ботом"
+      }
+    ]
+  }
+}
